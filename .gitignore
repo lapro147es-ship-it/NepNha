@@ -1,0 +1,8 @@
+/config.php
+/storage/*.sqlite*
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/storage/*.log
+/storage/sessions/
+/storage/mail/
+/storage/tmp/

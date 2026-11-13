@@ -1,0 +1,51 @@
+.page-master-data table {
+  min-width: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+.page-master-data th:first-child {
+  width: 21%;
+}
+.page-master-data th:nth-child(3) {
+  width: 14%;
+}
+.page-master-data th:last-child {
+  width: 15%;
+}
+.page-master-data td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.page-master-data td .text-button {
+  white-space: normal;
+}
+.commerce-auth {
+  max-width: 680px;
+  margin: 40px auto;
+}
+.commerce-chips {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.commerce-chips a {
+  padding: 10px 18px;
+  border-radius: 99px;
+  background: #f0e4d4;
+  color: #805538;
+}
+.commerce-assistant {
+  max-width: 1100px;
+}
+.commerce-assistant .panel {
+  margin: 20px 0;
+}
+@media (max-width: 600px) {
+  .page-master-data table {
+    min-width: 700px;
+  }
+  .commerce-auth {
+    margin: 24px 16px;
+  }
+}

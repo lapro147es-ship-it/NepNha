@@ -1,0 +1,11 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^$ public/ [R=302,L]
+    RewriteRule ^(?:app|bin|database|docs|storage|vendor|views)(?:/|$) - [F,L]
+</IfModule>
+
+<FilesMatch "^(config.*\.php|composer\.(?:json|lock)|README\.md|start\.php)$">
+    Require all denied
+</FilesMatch>
