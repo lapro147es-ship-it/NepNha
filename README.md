@@ -2,6 +2,8 @@
 
 Hệ thống quản lý dịch vụ thiết kế, lắp đặt và bảo trì nội thất căn hộ (PHP 8.2+, PDO SQLite/MySQL, HTML/CSS/JS thuần).
 
+- **Repository GitHub:** https://github.com/lapro147es-ship-it/NepNha
+
 ## 1. Cách chạy nhanh trong VS Code
 
 1. Mở VS Code → **File → Open Folder** → chọn thư mục **`NepNha-Clean`** này.
